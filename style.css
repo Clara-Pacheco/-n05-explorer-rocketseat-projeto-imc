@@ -178,3 +178,33 @@ button:hover {
   cursor: pointer;
   transform: scale(1.1)
 }
+
+/* Alert*/
+
+.alert-error {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  text-align: center;
+  padding: .8rem 0;
+
+  font-weight: bold;
+
+  background-color: var(--bg-error);
+  color: var(--tt-error);
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translateY(-35px);
+  transition: transform .3s;
+}
+
+.alert-error.open {
+  opacity: 1;
+  visibility: visible;
+
+  transform: translateY(0);
+}
