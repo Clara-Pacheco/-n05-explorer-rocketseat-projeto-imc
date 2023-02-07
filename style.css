@@ -16,6 +16,7 @@
   --ot-input: #02799D;  /*outline input*/
   --bd-input: rgba(73, 80, 87, 0.3);  /*border input*/
   --tt-placeholder: rgba(73, 80, 87, 0.5); /*text placeholder*/
+  --bg-input: #DCE2E9; /*background input*/
 
   --bg-button: rgba(2, 121, 157, 1); /*background button*/
   --tt-button: #fff; /*text-button*/
@@ -47,4 +48,53 @@ body {
 
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
+}
+
+.title {
+
+font-weight: 700;
+font-size: 3.2rem;
+line-height: 4rem;
+
+color: var(--tt-heading);
+
+}
+
+form h1 {
+  margin-bottom: 3.2rem;
+}
+
+form label {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+
+  display: block;
+  margin-bottom: 0.8rem;
+
+  color: var(--tt-label);
+}
+
+form input {
+  width: 100%;
+  color: var(--tt-input);
+
+  background-color: var(--bg-input);
+  border: 1px solid var(--bd-input);
+  border-radius: 4px;
+
+  padding: 1.6rem;
+
+}
+
+form input:hover {
+  outline: 2px solid var(--ot-input);
+}
+
+form input:placeholder {
+  color: var(--tt-placeholder);
+}
+
+.input-wrapper + .input-wrapper {
+  margin-top: 1.6rem;
 }
