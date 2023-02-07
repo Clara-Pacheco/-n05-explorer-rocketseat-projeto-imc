@@ -6,11 +6,30 @@
 
 :root {
   font-size: 62.5%;
+
+  /*colors*/
+
+  --tt-heading: #0C3440; /* text heading*/
+
+  --tt-label: #00453A;  /*text label*/
+  --tt-input: #212529;  /*text input*/ 
+  --ot-input: #02799D;  /*outline input*/
+  --bd-input: rgba(73, 80, 87, 0.3);  /*border input*/
+  --tt-placeholder: rgba(73, 80, 87, 0.5); /*text placeholder*/
+
+  --bg-button: rgba(2, 121, 157, 1); /*background button*/
+  --tt-button: #fff; /*text-button*/
+
+  --bg-error: rgba(240, 62, 62, 1); /*text button*/
+  --tt-error: #fff;
+
 }
 
 body {
   font-size: 1.6rem;
   background-color:#040924;
+
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -28,6 +47,4 @@ body {
 
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
-
-
 }
