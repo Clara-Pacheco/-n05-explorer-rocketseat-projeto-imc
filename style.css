@@ -138,3 +138,43 @@ button:hover {
   cursor: pointer;
   background-color: var(--bg-button-hover);
 }
+
+/* modal */
+
+.modal-wrapper {
+  position: absolute;
+  inset: 0;
+
+  display: grid;
+  place-content: center;
+
+  background: rgba(0, 0, 0, 0.7);
+
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal-wrapper.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal {
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  margin-top: 2.1rem;
+  margin-right: 2.1rem;
+
+  transition: transform .3s;
+}
+
+.close-button:hover {
+  cursor: pointer;
+  transform: scale(1.1)
+}
