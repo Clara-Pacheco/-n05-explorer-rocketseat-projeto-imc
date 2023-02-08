@@ -22,6 +22,12 @@ Principais pontos abordados nesse desafio:
 - Modularização,
 - Refatoração
 
+## 📕 Layout da aplicação  
+
+Aqui neste **[link](https://www.figma.com/file/3nRi6PxPZCT3Y6M3QnDc43/IMC-(Copy)?node-id=123%3A100&t=wp1fHQTKmtrccXFX-0)**  você tem acesso ao Figma do projeto**.** 
+
+⚠️ **Alerta**: Caso ao clicar no link você se depare com o erro que `WebGL` não está ativado no seu navegador, [siga esses passos](https://help.figma.com/hc/en-us/articles/360039828614#Enable_WebGL).
+
 ## 💻 Projeto
 
 O resultado final desse desafio deve ser algo em torno de:
