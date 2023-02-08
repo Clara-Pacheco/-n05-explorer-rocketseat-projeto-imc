@@ -28,11 +28,11 @@ Principais pontos abordados nesse desafio:
 
 O resultado final desse desafio deve ser algo em torno de:
 
-![Project´s preview]()
+![Project´s preview](https://github.com/Clara-Pacheco/n05-explorer-rocketseat-projeto-imc/blob/main/img-preview/screen1.png)
 
-![Project´s preview]()
+![Project´s preview](https://github.com/Clara-Pacheco/n05-explorer-rocketseat-projeto-imc/blob/main/img-preview/modal.png)
 
-![Project´s preview]()
+![Project´s preview](https://github.com/Clara-Pacheco/n05-explorer-rocketseat-projeto-imc/blob/main/img-preview/screen-error.png)
 
 ## 🧪 Tecnologias | HTML , CSS e Javascript
 ---
