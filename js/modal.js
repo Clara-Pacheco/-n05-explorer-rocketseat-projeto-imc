@@ -15,3 +15,11 @@
 Modal.btnClose.addEventListener('click',() => {
   Modal.close()
 })
+
+window.addEventListener('keydown', (e)=>{
+  if(e.key === 'Escape' && Modal.wrapper.classList.contains('open')){
+    Modal.wrapper.classList.remove('open')
+  }
+
+
+})
