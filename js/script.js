@@ -16,7 +16,7 @@ form.addEventListener('submit', (e) => {
   const weight = inputWeight.value
   const height = inputHeight.value
 
-  if(notANumber(weight) || notANumber(height) || notANumber("")){
+  if(notANumber(weight) || notANumber(height)){
     alertError.classList.add('open')
     return
   }else{
@@ -32,5 +32,5 @@ form.addEventListener('submit', (e) => {
 })
 
 function notANumber(value){
-  return isNaN(value)
+  return isNaN(value) || value == ""
 }
