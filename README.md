@@ -18,11 +18,9 @@ Principais pontos abordados nesse desafio:
 - Trabalhar com eventos,
 - Acesso a métodos e atributos de objetos de eventos,
 - Criação de elementos via JS e exibição dos mesmos em tela,
-- Estrutura de repetição;
-- Criação de funções de callback;
-- Operadores comparativos;
+- Validação de dados,
+- Modularização,
 - Refatoração
-
 
 ## 💻 Projeto
 
@@ -36,7 +34,7 @@ O resultado final desse desafio deve ser algo em torno de:
 
 ## 🧪 Tecnologias | HTML , CSS e Javascript
 ---
-Nesse desafio, você irá criar um jogo de adivinhação, uma pequena aplicação web que envolve HTML, CSS e JS. Iremos descobrir como o javascrit funciona por baixo dos panos, como, por exemplo, quando tentarmos adivinhar um número - como o js irá ler e capturar esse número, como iremos aplicar um evento ao clique dos botões, como a aplicação irá descobrir em quantas vezes acertamos o número "pensado" , como será a alternância entre as 2 telas da aplicação, e, por fim, como fazemos para jogar novamente.
+Nesse desafio, iremos criar uma calculadora de IMC, utilizando os dados fornecidos pelo usuário para o cálculo. O resultado será exibido em tela, através de um modal, e a aplicação também fará a verificação dos dados. 
 ##  📕 Sobre  
 
 <p>Este é um projeto desenvolvido em treinamento, juntamente com a 
