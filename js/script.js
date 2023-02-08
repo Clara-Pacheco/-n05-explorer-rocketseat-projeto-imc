@@ -18,12 +18,16 @@ form.addEventListener('submit', (e) => {
     return
   }else{
     Alert.close()
+    displayIMCResult(weight,height)
+  }
+
+})
+
+function displayIMCResult(weight,height){
     const imcResult = IMC(weight,height)
 
     Modal.open()
     Modal.message.innerText = `O seu IMC é de ${imcResult}`
-  }
-
-})
+}
 
 
