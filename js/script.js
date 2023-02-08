@@ -1,10 +1,9 @@
 import { Modal } from './modal.js'
+import { Alert } from './alert-error.js'
 
 const form = document.querySelector("form")
 const inputWeight = document.querySelector("#weight")
 const inputHeight = document.querySelector("#height")
-const alertError = document.querySelector('.alert-error')
-
 
 function IMC(weight, height) {
   return (weight / ((height / 100) ** 2)).toFixed(2)
@@ -17,10 +16,10 @@ form.addEventListener('submit', (e) => {
   const height = inputHeight.value
 
   if(notANumber(weight) || notANumber(height)){
-    alertError.classList.add('open')
+    Alert.open()
     return
   }else{
-    alertError.classList.remove('open')
+    Alert.close()
     const imcResult = IMC(weight,height)
 
     Modal.open()
