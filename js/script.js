@@ -30,14 +30,21 @@ form.addEventListener('submit', (e) => {
 
 })
 
-inputWeight.addEventListener('click',()=>{
+// inputWeight.addEventListener('click',()=>{
+//   Alert.close()
+// })
+
+// inputHeight.addEventListener('click',()=>{
+//   Alert.close()
+// })
+
+inputWeight.addEventListener('input',()=>{
   Alert.close()
 })
 
-inputHeight.addEventListener('click',()=>{
+inputHeight.addEventListener('input',()=>{
   Alert.close()
 })
-
 
 
 
