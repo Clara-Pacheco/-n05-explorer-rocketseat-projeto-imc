@@ -6,6 +6,13 @@ const form = document.querySelector("form")
 const inputWeight = document.querySelector("#weight")
 const inputHeight = document.querySelector("#height")
 
+function displayIMCResult(weight,height){
+  const imcResult = IMC(weight,height)
+
+  Modal.open()
+  Modal.message.innerText = `O seu IMC é de ${imcResult}`
+}
+
 
 form.addEventListener('submit', (e) => {
   e.preventDefault()
@@ -23,11 +30,14 @@ form.addEventListener('submit', (e) => {
 
 })
 
-function displayIMCResult(weight,height){
-    const imcResult = IMC(weight,height)
+inputWeight.addEventListener('click',()=>{
+  Alert.close()
+})
 
-    Modal.open()
-    Modal.message.innerText = `O seu IMC é de ${imcResult}`
-}
+inputHeight.addEventListener('click',()=>{
+  Alert.close()
+})
+
+
 
 
